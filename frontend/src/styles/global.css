@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Login Page */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+form button:hover { background: #0056b3; }
+
+/* Dashboard */
+.dashboard {
+  padding: 20px;
+}
+.card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  background: #f2f2f2;
+}
+tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.filter-bar input,
+.filter-bar select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.filter-bar button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+.filter-bar button:hover {
+  background: #0056b3;
+}
+
